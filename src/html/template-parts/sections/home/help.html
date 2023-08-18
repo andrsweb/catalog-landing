@@ -1,0 +1,20 @@
+<section class="help">
+	<div class="container">
+		<div class="dots">
+			<img src="img/hero/dots.svg" width="132" height="115" alt="">
+		</div>
+		<div class="spot">
+			<img src="img/hero/spot.png" width="937" height="671" alt="">
+		</div>
+		<h2 class="h2">
+			Как этот каталог вам поможет?
+		</h2>
+		<div class="help__items">
+			@@loop('./help-item.html', [
+				{'src': 'img/help/wallet.svg', 'title': 'Заработать капитал', 'text': 'Даже инвесторы без опыта смогут использовать 4 основных способа заработка'},
+				{'src': 'img/help/diskette.svg', 'title': 'Сохранить капитал', 'text': 'Капитализация крупных компаний растет на любом промежутке в несколько лет, обгоняя инфляцию и проценты по вкладам'},
+				{'src': 'img/help/tablet.svg', 'title': 'Получить опыт', 'text': 'Инвестировать можно начинать с небольшой суммы, получая знания и наращивая квалификацию'}
+			])
+		</div>
+	</div>
+</section>

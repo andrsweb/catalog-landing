@@ -4,6 +4,7 @@
 @import 'common/typography';
 @import 'common/grid';
 @import 'common/base';
+@import 'common/buttons';
 
 // Header styles.
 @import 'header/header';
@@ -13,3 +14,4 @@
 
 // Home page sections styles.
 @import 'sections/home/hero';
+@import 'sections/home/help';
