@@ -21,5 +21,24 @@
 			background-color: $white;
 			color: $blue;
 		}
+
+		&:active {
+			background-color: rgb(234, 242, 248);
+		}
+	}
+
+	&.transparent {
+		background-color: transparent;
+		color: $blue;
+		padding: 15px 50px;
+
+		&:hover {
+			background-color: $blue;
+			color: $white;
+		}
+
+		&:active {
+			background-color: rgb(80, 151, 218);
+		}
 	}
 }
