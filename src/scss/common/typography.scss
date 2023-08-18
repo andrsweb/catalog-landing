@@ -24,6 +24,18 @@ h2, .h2 {
 	line-height: $lh;
 	text-align: center;
 	font-size: 24px;
+	position: relative;
+		&::after {
+			content: "";
+			position: absolute;
+			left: 50%;
+			bottom: -35px;
+			transform: translateX(-50%);
+			display: block;
+			width: 56px;
+			height: 2px;
+			background-color: $black;
+		}
 
 	@media all and (min-width: $lg) {
 		font-size: 36px
@@ -31,7 +43,12 @@ h2, .h2 {
 }
 
 h3, .h3 {
-	font-size: 30px
+	color: $black;
+	font-family: $ff;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: $fw-bold;
+	line-height: 56px; 
 }
 
 a {
