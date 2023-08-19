@@ -1,6 +1,10 @@
 .contact {
 	padding: 70px 0 120px;
 
+	@media all and (min-width: $xl) {
+		padding: 70px 0 120px;
+	}
+
 	.container-fluid {
 		max-width: 1900px;
 		margin: 0 auto;
