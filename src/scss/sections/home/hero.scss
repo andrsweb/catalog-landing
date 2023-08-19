@@ -6,7 +6,7 @@
 	}
 
 	@media all and (min-width: $xl) {
-		padding: 177px 0 260px;
+		padding: 177px 0 60px;
 	}
 
 	.container-fluid {
@@ -80,6 +80,10 @@
 		@media all and (min-width: $xl) {
 			width: 50%;
 			height: 425px;
+		}
+
+		@media all and (min-width: $xl) {
+			height: 670px;
 		}
 	}
 
@@ -159,5 +163,53 @@
 		@media all and (min-width: $md) {
 			margin-top: 64px;
 		}
+	}
+}
+
+.thank-you {
+	padding: 105px 0 10px;
+
+	@media all and (min-width: $md) {
+		padding: 110px 0 60px;
+	}
+
+	@media all and (min-width: $xl) {
+		padding: 77px 0 30px;
+	}
+
+	.container-fluid {
+		max-width: 1900px;
+		margin: 0 auto;
+		padding: 0 15px;
+
+		@media all and (min-width: $xl) {
+			padding-left: 14%;
+		}
+	}
+
+	.hero__text {
+		color: $black;
+		font-family: $ff;
+		font-size: 20px;
+		font-style: normal;
+		font-weight: $fw-light;
+		line-height: 40px;
+
+		@media all and (min-width: $xl) {
+			font-size: 24px;
+		}
+	}
+
+	.h1 {
+		max-width: 630px;
+		font-size: 40px;
+
+		@media all and (min-width: $xl) {
+			font-size: 64px;
+		}
+	}
+
+	.hero__info {
+		max-width: 700px;
 	}
 }
