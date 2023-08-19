@@ -7,12 +7,16 @@
 	padding: 15px 32px;
 	font-family: $ff;
 	font-weight: $fw-bold;
-	font-size: 18px;
+	font-size: 16px;
 	color: $white;
 	border-radius: 30px;
 	cursor: pointer;
 	transition: background-color ease $tr,
 				color ease $tr;
+
+	@media all and (min-width: $md) {
+		font-size: 18px;
+	}
 
 	&.blue {
 		background-color: $blue;
