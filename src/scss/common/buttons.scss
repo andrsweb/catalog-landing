@@ -45,4 +45,15 @@
 			background-color: rgb(80, 151, 218);
 		}
 	}
+
+	&.popup_button {
+		background-color: $blue;
+		padding: 12 24px;
+		border-radius: 5px;
+		transition: opacity ease $tr;
+
+		&:hover {
+			opacity: $op;
+		}
+	}
 }

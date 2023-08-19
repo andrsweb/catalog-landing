@@ -39,6 +39,44 @@ fieldset, form {
 	border: 0;
 }
 
+label {
+	color: $black;
+	font-family: $ff;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: $fw-regular;
+	line-height: normal;
+	margin-bottom: 6px;
+}
+
+input {
+	width: 100%;
+	color: $black;
+	font-family: $ff;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: $fw-regular;
+	line-height: normal;
+	border: 1px solid rgba(66, 80, 102, 0.40);
+	box-shadow: 0px 2px 4px 0px rgba(66, 80, 102, 0.10);
+	padding: 12px;
+	border-radius: 5px;
+	transition: box-shadow ease $tr;
+
+	&::placeholder {
+		color: $black;
+		font-family: $ff;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: $fw-regular;
+		line-height: normal;
+	}
+
+	&:focus {
+		box-shadow: 0px 4px 6px 5px rgba(66, 80, 102, 0.10);
+	}
+}
+
 .wrapper {
 	position: relative;
 	display: flex;
