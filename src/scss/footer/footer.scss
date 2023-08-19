@@ -3,10 +3,23 @@
 	background: linear-gradient(212deg, #67C3F3 0%, #5A98F2 100%);
 	position: relative;
 
+	.container {
+		padding: 0 5px;
+
+		@media all and (min-width: $sm) {
+			padding: 0 20px;
+		}
+	}
+
 	&__wrapper {
 		display: flex;
+		flex-direction: column;
 		align-items: center;
 		justify-content: space-between;
+
+		@media all and (min-width: $xl) {
+			flex-direction: row;
+		}
 
 		.dots {
 			width: 132px;
@@ -33,5 +46,10 @@
 		font-style: normal;
 		font-weight: $fw-light;
 		line-height: 36px;
+		text-align: center;
+
+		@media all and (min-width: $xl) {
+			text-align: left;
+		}
 	}
 }
